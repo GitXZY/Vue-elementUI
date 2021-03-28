@@ -4,13 +4,12 @@
     <el-row>
       <el-button type="primary" class="btn" @click="animation()">内置过渡动画</el-button>
     </el-row>
-    <!-- <router-link to="/Animation">Animation</router-link> | -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
