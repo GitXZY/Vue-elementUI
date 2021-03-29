@@ -17,6 +17,7 @@
     </div>
     <!-- zoom 缩放 -->
     <div style="margin-top: 20px">
+      <h3>缩放 zoom </h3>
       <el-button @click="show2 = !show2"> Click Me </el-button>
       <!-- 向中心缩放 -->
       <div class="style">
@@ -35,6 +36,7 @@
     </div>
     <!-- collapse展开折叠 -->
     <div style="margin-top: 20px">
+      <h3>展开折叠 collapse</h3>
       <el-button @click="show3 = !show3"> Click Me </el-button>
       <div class="style" >
         <el-collapse-transition>

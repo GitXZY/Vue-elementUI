@@ -1,9 +1,13 @@
 <template>
   <div class="hello">
     <!-- 操作页面 -->
-    <el-row>
+    <el-row class="marg" >
       <el-button type="primary" class="btn" @click="animation()">内置过渡动画</el-button>
     </el-row>
+    <el-row class="marg">
+      <el-button type="primary" class="btn" @click="layout()">Layout布局</el-button>
+    </el-row>
+    
   </div>
 </template>
 
@@ -19,6 +23,9 @@ export default {
     // 内置动画
     animation(){
       this.$router.replace('/animation');
+    },
+    layout(){
+      this.$router.replace('/layout');
     }
   }
 }
@@ -39,5 +46,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.marg{
+  margin:20px;
 }
 </style>
