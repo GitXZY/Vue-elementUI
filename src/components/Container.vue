@@ -66,6 +66,9 @@
         </el-container>
       </el-container>
     </div>
+     <el-button style="margin-top: 100px" type="primary" @click="returnUp()"
+      >返回</el-button
+    >
   </div>
 </template>
 <script>

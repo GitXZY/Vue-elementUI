@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Animation from '@/components/Animation'
 import Layout from "@/components/Layout"
 import Container from "@/components/Container"
+import Button from "@/components/Button"
 
 const originalPush = Router.prototype.push
 Router.prototype.push = function push (location) {
@@ -32,6 +33,11 @@ export default new Router({
       path:'/Container',
       name:'Container',
       component:Container,
+    },
+    {//按钮
+      path:"/Button",
+      name:'Button',
+      component:Button
     }
   ],
   mode:"history",
