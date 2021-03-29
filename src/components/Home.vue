@@ -7,6 +7,10 @@
     <el-row class="marg">
       <el-button type="primary" class="btn" @click="layout()">Layout布局</el-button>
     </el-row>
+    <el-row class="marg">
+      <el-button type="primary" class="btn" @click="container()">Container布局容器</el-button>
+    </el-row>
+
     
   </div>
 </template>
@@ -26,6 +30,9 @@ export default {
     },
     layout(){
       this.$router.replace('/layout');
+    },
+    container(){
+       this.$router.replace('/container');
     }
   }
 }
